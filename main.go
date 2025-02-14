@@ -2,14 +2,17 @@ package main
 
 import (
 	//"encoding/json"
-	//"fmt"
+	"fmt"
 	"log"
 	"os"
 )
 
 func main() {
-    createFile()
+    input := os.Args[1]
+    fmt.Println(input)
 
+    switch input {
+    }
 
 }
 
